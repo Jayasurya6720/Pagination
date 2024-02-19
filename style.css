@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(130, 255, 224);
+}
+.pagi {
+    display: flex;
+    justify-content: center;
+}
+
+ .page-item{
+    margin: 2px;
+ }
+
+.page-link:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: aliceblue;
+}
+
+.heading {
+    background-color: #000;
+    height: 80px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(255, 253, 253);
+
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+   
+}
+
+table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+    box-shadow: 2px 2px 7px #000;
+    background-color: rgba(246, 241, 241, 0.5);
+}
+
+td,
+tr,
+th {
+    
+    width: 400px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+
+.page-link{
+    background-color: rgb(52, 147, 168);
+    border-radius: 18px;
+    color: aliceblue;
+}
+th{
+    background-color: rgb(186, 218, 245);
+}
+td{
+    background-color: aliceblue;
+}
